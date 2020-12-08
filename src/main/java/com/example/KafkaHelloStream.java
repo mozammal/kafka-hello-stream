@@ -13,7 +13,6 @@ import org.apache.kafka.streams.kstream.KStream;
 public class KafkaHelloStream {
   private static final AtomicBoolean appCjhecker = new AtomicBoolean(false);
 
-  // kafka-console-producer --bootstrap-server localhost:9092 --topic hello
   public static void main(String[] args) throws InterruptedException {
     Map<String, String> envs = System.getenv();
     System.out.println("property: " + envs.get("STREAMS_BOOTSTRAP_SERVERS"));
