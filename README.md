@@ -5,7 +5,7 @@
 Sample Kafka Stream Hello world app with dokcer-compose
 
 # Running Locally
-The only dependency for running these examples is [Docker Compose][docker].
+The only dependency for running this example is [Docker Compose][docker].
 
 [docker]: https://docs.docker.com/compose/install/
 
