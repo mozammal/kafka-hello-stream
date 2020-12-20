@@ -9,7 +9,7 @@ The only dependency for running this example is [Docker Compose][docker].
 
 [docker]: https://docs.docker.com/compose/install/
 
-Once Docker Compose is installed, you can start the application the following command:
+Once Docker Compose is installed, you can start the application using the following command:
 
 ```sh
 $ make start
@@ -41,7 +41,7 @@ Now, type a few words, followed by `<ENTER>`.
 >Mozammal
 >dreamer
 ```
-You will see the output produced by the stream application using the following command:
+You will see the output produced by the stream application in the console using the following command:
 ```sh
 docker logs kafka-hello-stream -f
 ```
